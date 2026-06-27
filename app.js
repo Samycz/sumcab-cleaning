@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', () => {
   // When running locally, this is empty (uses relative paths).
   // Once you deploy the backend to the cloud (e.g. Render, Railway),
   // replace this empty string with your cloud URL (e.g. 'https://sumcab-backend.onrender.com')
-  const API_BASE_URL = '';
+  const API_BASE_URL = 'https://sumcab-cleaning.onrender.com';
 
   // --- 1. Sticky Navigation & Scroll Blur ---
   const header = document.getElementById('header-nav');
